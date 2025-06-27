@@ -173,3 +173,25 @@ Generated Controllers
 `php artisan make:controller OrderController`
 
 `php artisan make:controller OrderDetailController`
+
+- Added Controller stubs
+- Added Model fillables and relational linkage
+- Comments are placed to show what steps need to be taken.
+- Added Businesses/Create.vue
+- Used scaffold of Dashboard.vue and added create body inside
+- Added dummy submit route for create page.
+- Added resource routing for controllers.
+- Instructions did not indicate if I should mention componants and services to handle shipping segments
+and dashboard reporting so I have omitted it.
+- All notes taken from Assessment can be found in NOTES.md which I compiled before starting
+
+@Wogan I wanted to commend you on this assessment, it was very well thought out. and was a good challenge, Thank you.
+
+I have opted to use a docker stack I put together about a year ago to try and get started quickly. it is similar to yours,
+but with a single phase deployment.
+
+with the docker stack you can delete the `html` folder and run from the base.
+
+- `./docker/setup/entrypoint.sh` and it will spin up a new version of laravel inside
+- then `docker-compose up` to view it on `https://localhost:8000`
+

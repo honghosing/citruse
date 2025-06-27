@@ -13,6 +13,10 @@ const mainNavItems: NavItem[] = [
         title: 'Dashboard',
         href: '/dashboard',
         icon: LayoutGrid,
+    },{
+        title: 'Add New Business',
+        href: '/businesses/create',
+        icon: LayoutGrid,
     },
 ];
 
