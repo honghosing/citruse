@@ -30,6 +30,10 @@ fi
 # Change into the Laravel project directory.
 cd html
 
+# Install spatie permissions
+composer require spatie/laravel-permission
+
+
 # Copy .env file only if it doesn't exist
 if [ ! -f ".env" ]; then
     echo "🔧 Copying default .env file..."
