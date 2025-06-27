@@ -128,3 +128,48 @@ Generated two seeders to prepopulate roles and users
 
 `php artisan make:seeder UserSeeder`
 
+Generated migration scripts
+
+`php artisan make:migration create_contacts_table`
+
+`php artisan make:migration create_businesses_table`
+
+`php artisan make:migration create_stock_table`
+
+`php artisan make:migration create_stock_prices_table`
+
+`php artisan make:migration create_orders_table`
+
+`php artisan make:migration create_order_details_table`
+
+`php artisan make:migration create_roles_table`
+
+Generated models
+
+`php artisan make:model Business`
+
+`php artisan make:model Contact`
+
+`php artisan make:model Stock`
+
+`php artisan make:model StockPrice`
+
+`php artisan make:model Order`
+
+`php artisan make:model OrderDetail`
+
+`php artisan make:model Role`
+
+Generated Controllers
+
+`php artisan make:controller ContactController`
+
+`php artisan make:controller BusinessController`
+
+`php artisan make:controller StockController`
+
+`php artisan make:controller StockPriceController`
+
+`php artisan make:controller OrderController`
+
+`php artisan make:controller OrderDetailController`
